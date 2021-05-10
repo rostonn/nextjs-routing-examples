@@ -57,6 +57,10 @@ export default function Home() {
           <Link href="/query-parameters" >Path Variable Multiple Params Example - /query-parameters</Link>
           </li>
 
+          <li>
+          <Link href="/redux" >Redux examples maintain state while routing - /redux</Link>
+          </li>
+
         </ul>
 
         <style jsx>{`
