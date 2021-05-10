@@ -14,6 +14,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <h1>NextJS Routing Examples</h1>
         <ul>
           <li>
           <Link href="/index-route">Index Route - folder about-index-route/index.js</Link>
@@ -21,6 +22,41 @@ export default function Home() {
           <li>
           <Link href="/static-route" >Static Route - file static-route.js</Link>
           </li>
+
+
+          <li>
+          <Link href="/site-generation/ssr" >Server Side Rendered component - /site-generation/ssr</Link>
+          </li>
+
+
+          <li>
+          <Link href="/site-generation/ssg" >Static Site Rendered component - /site-generation/ssg</Link>
+          </li>
+
+          <li>
+          <Link href="/site-generation/isr" >Incremental Static Site Rendered component - /site-generation/isr</Link>
+          </li>
+
+          <li>
+          <Link href="/pre-fetch" >Examples showing nextjs prefetching</Link>
+          </li>
+
+          <li>
+          <Link href="/use-router" >useRouter Example - /use-router</Link>
+          </li>
+
+          <li>
+          <Link href="/query-parameters" >Query Parameters Example - /query-parameters</Link>
+          </li>
+
+          <li>
+          <Link href="/path-variables/1234" >Path Variable Single Param Example - filename /pages/path-variables/[id].js</Link>
+          </li>
+
+          <li>
+          <Link href="/query-parameters" >Path Variable Multiple Params Example - /query-parameters</Link>
+          </li>
+
         </ul>
 
         <style jsx>{`
